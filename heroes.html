@@ -1,26 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Héroes</title>
+  <!-- Vincula Bootstrap si lo necesitas -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilo para todas las tarjetas */
+    .card {
+      width: 14rem; /* Ancho reducido */
+      margin: 10px;
+      display: inline-block; /* Para que se muestren en línea, ajusta según necesites */
+      vertical-align: top;
+    }
+    /* Ajuste para las imágenes de las tarjetas */
+    .card-img-top {
+      height: 200px; /* Altura fija para mantener proporciones uniformes */
+      object-fit: cover;
+    }
+    /* Opcional: estilo para el menú de navegación */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+  </style>
 </head>
 <body>
-    
-    <header>
-        <h1>Bienvenido a la Página de Héroes</h1>
-    </header>
+  <header>
+    <h1>Bienvenido a la Página de Héroes</h1>
+  </header>
 
- <!-- Menú de Navegación -->
- <nav>
+  <!-- Menú de Navegación -->
+  <nav>
     <ul>
-        <li><a href="heroes.html">Héroes</a></li>
-        <li><a href="historiadeheroes.html">Historia de Héroes</a></li>
-        <li><a href="personajefav.html">Héroe Favorito</a></li>
+      <li><a href="heroes.html">Héroes</a></li>
+      <li><a href="historiadeheroes.html">Historia de Héroes</a></li>
+      <li><a href="personajefav.html">Héroe Favorito</a></li>
     </ul>
-</nav>
+  </nav>
 
+  <!-- Tarjetas de Héroes -->
+  <div class="card">
+    <img src="imagenes/1.webp" class="card-img-top" alt="Iron Man">
+    <div class="card-body">
+      <h5 class="card-title">Iron Man</h5>
+      <p class="card-text">Usa una armadura tecnológica avanzada para volar, disparar repulsores y proteger al mundo de amenazas globales. Su ingenio y recursos le permiten innovar constantemente en tecnología para combatir el crimen.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 
+  <div class="card">
+    <img src="imagenes/2.webp" class="card-img-top" alt="Capitán América">
+    <div class="card-body">
+      <h5 class="card-title">Capitán América</h5>
+      <p class="card-text">Es un súper soldado idealista que, con su escudo indestructible, lidera y protege a los inocentes. Su valentía y sentido de la justicia lo convierten en el corazón moral de los Avengers.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/3.webp" class="card-img-top" alt="Thor">
+    <div class="card-body">
+      <h5 class="card-title">Thor</h5>
+      <p class="card-text">Como dios asgardiano del trueno, maneja el martillo Mjolnir para invocar rayos, controlar tormentas y derrotar a enemigos poderosos.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/4.avif" class="card-img-top" alt="Hulk">
+    <div class="card-body">
+      <h5 class="card-title">Hulk</h5>
+      <p class="card-text">Tras exponerse a rayos gamma, Bruce Banner se transforma en Hulk, una fuerza imparable cuando se enoja.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/6.1.jpg" class="card-img-top" alt="Black Widow">
+    <div class="card-body">
+      <h5 class="card-title">Black Widow</h5>
+      <p class="card-text">Es una espía y combatiente experta en artes marciales, capaz de infiltrarse en instalaciones enemigas y desarmar situaciones peligrosas.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/6.2.avif" class="card-img-top" alt="Hawkeye">
+    <div class="card-body">
+      <h5 class="card-title">Hawkeye</h5>
+      <p class="card-text">Es un arquero excepcional con una puntería milimétrica. Utiliza sus habilidades con el arco y flechas especiales para neutralizar amenazas a distancia y complementar el trabajo en equipo de los Avengers.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/7.webp" class="card-img-top" alt="Vision">
+    <div class="card-body">
+      <h5 class="card-title">Vision</h5>
+      <p class="card-text">Un ser sintético creado a partir de tecnología avanzada y la gema de la mente, capaz de volar, alterar su densidad y disparar energía.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/8.jpg" class="card-img-top" alt="Scarlet Witch">
+    <div class="card-body">
+      <h5 class="card-title">Scarlet Witch</h5>
+      <p class="card-text">Posee poderes místicos que le permiten manipular la realidad, lanzar potentes descargas de energía y crear campos de fuerza.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/9.jpg" class="card-img-top" alt="Falcon">
+    <div class="card-body">
+      <h5 class="card-title">Falcon</h5>
+      <p class="card-text">Con su traje equipado con alas mecánicas, puede volar y realizar maniobras aéreas en combate. Además, es un estratega y piloto experto, proporcionando apoyo aéreo vital en las misiones del equipo.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="imagenes/10.webp" class="card-img-top" alt="Ant-Man">
+    <div class="card-body">
+      <h5 class="card-title">Ant-Man</h5>
+      <p class="card-text">Tiene la capacidad de reducir su tamaño drásticamente mientras aumenta su fuerza. Utiliza esta habilidad para infiltrarse en lugares inaccesibles, desarmar sistemas de seguridad y aportar un enfoque único al combate contra el crimen.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
     
 </body>
 </html>
